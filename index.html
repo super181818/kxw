@@ -608,6 +608,13 @@
                                      ng-show="createInfo.bbullx.max_count_type==9"/>
                                 <div class="selectText">21人</div>
                             </div>
+                            <div class="selectItem" style="margin-left: 1.5vh;margin-left: 0.18rem !important;"
+                                 ng-click="selectChange(7,10)">
+                                <div class="selectBox"></div>
+                                <img src="/files/images/daoyou/hall/tick.png"
+                                     ng-show="createInfo.bbullx.max_count_type==10"/>
+                                <div class="selectText">23人</div>
+                            </div>                            
                         </div>
                     </div>
 
@@ -758,6 +765,8 @@
                                 </div>
                                 <div class="selectText selectText2" ng-show="createInfo.bbullx.max_count_type==9">12局
                                 </div>
+                                <div class="selectText selectText2" ng-show="createInfo.bbullx.max_count_type==10">12局
+                                </div>
                                 <div style="float:left;">
                                     <img src="/files/images/daoyou/hall/card.png"
                                          style="position: relative;width: 0.4rem;height: 0.55rem;margin-top: 0.05rem;"/>
@@ -779,6 +788,8 @@
                                 <div class="selectText selectText2" ng-show="createInfo.bbullx.max_count_type==8">x12
                                 </div>
                                 <div class="selectText selectText2" ng-show="createInfo.bbullx.max_count_type==9">x15
+                                </div>
+                                <div class="selectText selectText2" ng-show="createInfo.bbullx.max_count_type==10">x18
                                 </div>
                             </div>
                             <div class="selectItem" ng-click="selectChange(4,2)" style="width: 40%;margin: 0.05rem 0;">
@@ -803,6 +814,8 @@
                                 </div>
                                 <div class="selectText selectText2" ng-show="createInfo.bbullx.max_count_type==9">24局
                                 </div>
+                                <div class="selectText selectText2" ng-show="createInfo.bbullx.max_count_type==10">24局
+                                </div>
                                 <div style="float:left;">
                                     <img src="/files/images/daoyou/hall/card.png"
                                          style="position: relative;width: 0.4rem;height: 0.55rem;margin-top: 0.05rem;"/>
@@ -824,6 +837,8 @@
                                 <div class="selectText selectText2" ng-show="createInfo.bbullx.max_count_type==8">x24
                                 </div>
                                 <div class="selectText selectText2" ng-show="createInfo.bbullx.max_count_type==9">x30
+                                </div>
+                                <div class="selectText selectText2" ng-show="createInfo.bbullx.max_count_type==10">x36
                                 </div>
 
                             </div>
@@ -870,12 +885,12 @@
                                      ng-show="createInfo.bbullx.is_allow_club==1"/>
                                 <div class="selectText">只允许俱乐部加入</div>
                             </div>
-                            <div class="selectItem" ng-click="selectChange(10,3)" style="width: 40%;">
+                            <!--div class="selectItem" ng-click="selectChange(10,3)" style="width: 40%;">
                                 <div class="selectBox"></div>
                                 <img src="/files/images/daoyou/hall/tick.png"
                                      ng-show="createInfo.bbullx.is_ban_guest==1"/>
                                 <div class="selectText">禁止观战</div>
-                            </div>
+                            </div-->
                             <div class="selectItem" ng-click="selectChange(9,4)" style="width: 50%;">
                                 <div class="selectBox"></div>
                                 <img src="/files/images/daoyou/hall/tick.png" ng-show="createInfo.bbullx.can_rub==1"/>
